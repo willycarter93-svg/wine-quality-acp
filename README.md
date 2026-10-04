@@ -42,3 +42,21 @@ Réduire la dimensionnalité d'un dataset de vins (11 variables chimiques) pour 
 - L'**acidité volatile** est le marqueur commun d'un défaut
 
 ## Structure du projet
+
+wine-quality-acp/
+├── PCA_différenciation.ipynb # Notebook principal
+├── data/ # Datasets (non versionnés)
+├── images/ # Graphiques exportés
+└── README.md
+
+
+## Stack technique
+
+- Python 3
+- pandas, numpy
+- scikit-learn (PCA, StandardScaler)
+- matplotlib, seaborn
+
+## Auteur
+
+Tchimou Wilfried
